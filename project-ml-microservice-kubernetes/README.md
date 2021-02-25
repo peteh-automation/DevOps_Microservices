@@ -1,4 +1,5 @@
 <include a CircleCI status badge, here>
+[![peteh-automation](https://circleci.com/gh/peteh-automation/DevOps_Microservices.svg?style=svg)](https://circleci.com/gh/peteh-automation/DevOps_Microservices)
 
 ## Project Overview
 
