@@ -1,15 +1,13 @@
 #!/usr/bin/env bash
 
-# This tags and uploads an image to Docker Hub
+# This runs the container in a Kubernetes cluster
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
 dockerpath=peterheybrock/lesson5proj
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-#kubectl run predict --image=$dockerpath
 kubectl run myl5proj --image=$dockerpath --port=80
 
 
