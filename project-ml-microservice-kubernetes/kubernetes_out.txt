@@ -1,0 +1,9 @@
+$ ./run_kubernetes.sh 
+pod/myl5proj created
+wait for 20 seconds for pod to start
+NAME       READY   STATUS    RESTARTS   AGE
+myl5proj   1/1     Running   0          20s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+

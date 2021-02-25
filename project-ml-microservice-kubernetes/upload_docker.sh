@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath="peterheybrock/lesson5proj"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username=peterheybrock
+docker image tag lesson5proj $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker image push $dockerpath
